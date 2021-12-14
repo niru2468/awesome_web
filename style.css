@@ -1,0 +1,343 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Fira Code;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  /* background-color: grey; */
+}
+.one {
+  color: black;
+}
+.two {
+  margin-right: 30px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+li a:hover {
+  border-bottom: 3px solid black;
+}
+span {
+  font-weight: bold;
+}
+button {
+  font-family: Fira Code;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #6dc77a;
+  border: none;
+}
+button a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+button:hover {
+  background-color: black;
+}
+main-container {
+  margin: 0;
+  color: black;
+}
+.main-one-container {
+  background-image: url(./friends.jpg);
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  /* background: rgba(0, 151, 19, 0.1); */
+}
+.main-two-container {
+  text-align: center;
+}
+.main-two-container h1 {
+  color: white;
+  margin-top: 0;
+  padding-top: 100px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.main-two-container p {
+  font-weight: bolder;
+}
+.main-two-container #play {
+  padding-top: 50px;
+  width: 150px;
+  height: 150px;
+}
+.main-form input {
+  height: 40px;
+}
+.main-form input::placeholder {
+  color: black;
+  font-family: Operator Mono;
+  font-size: 14px;
+  font-weight: 500;
+}
+.main-form button {
+  background-color: #6dc77a;
+  border: none;
+}
+.main-form-link a {
+  font-size: inherit;
+  color: white;
+}
+.main-form button:hover {
+  background-color: black;
+}
+.main-form {
+  padding-top: 120px;
+}
+.feature-section {
+  padding-top: 100px;
+}
+.feature-section-title {
+  text-align: center;
+  font-weight: 200;
+  margin: auto;
+  padding: 5px;
+}
+.feature-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding-top: 80px;
+}
+.feature-content-one {
+  width: 350px;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.feature-content-one h3 {
+  text-align: center;
+}
+.feature-content-two {
+  width: 350px;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.feature-content-three {
+  width: 350px;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+#one-img {
+  width: 350px;
+  height: 250px;
+}
+#one {
+  background-color: #6dc77a;
+  width: 25px;
+  color: white;
+}
+#showcase1-container {
+  margin-top: 50px;
+  background-color: #eef0f1;
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.showcase-col2 {
+  width: 35%;
+  text-align: left;
+  justify-content: right;
+  font-size: 15px;
+  padding-top: 300px;
+  padding-left: 50px;
+}
+.showcase-col2-heading {
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+/* feature two */
+.showcase-feature-two {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.showcase-feature-col1 {
+  width: 30%;
+  padding-top: 300px;
+  padding-left: 50px;
+}
+.showcase-feature-col1-heading {
+  font-weight: 200;
+  line-height: 40px;
+}
+#ipad {
+  height: 740px;
+}
+#desk {
+  width: 100%;
+  height: 600px;
+}
+.call-to-action {
+  background-image: url(./desk.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+.wait-heading {
+  margin: 0;
+  font-size: 50px;
+  padding-top: 250px;
+}
+.wait-para {
+  font-size: 20px;
+  color: white;
+}
+.wait-button {
+  font-size: 18px;
+  text-align: center;
+  width: 200px;
+  height: 70px;
+  border-radius: 0;
+}
+.call-to-action h1,
+button {
+  color: white;
+  font-weight: 200;
+}
+.html-form {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding-top: 80px;
+}
+.html-form-heading {
+  width: 30%;
+}
+.html-form-h1 {
+  font-weight: 150;
+  line-height: 40px;
+}
+.html-form-f1-form {
+  background-color: #eef0f1;
+  width: 30%;
+  text-align: center;
+  height: 350px;
+}
+.html-form-f1-form input {
+  width: 400px;
+  height: 40px;
+  margin: 0;
+  margin-top: 20px;
+}
+.html-form-f1-form input::placeholder {
+  font-size: 15px;
+  font-family: Operator Mono;
+  padding-left: 15px;
+}
+.html-form-f1-form button {
+  font-size: 17px;
+  margin-top: 20px;
+  width: 400px;
+  border-radius: 0;
+  margin: 0;
+  margin-top: 15px;
+  width: 400px;
+}
+.html-form-para {
+  font-style: italic;
+  font-size: 15px;
+}
+.html-form-f1-para {
+  font-size: 11px;
+  text-align: center;
+  font-style: italic;
+}
+.html-form-para-span {
+  margin-top: 100px;
+  font-weight: 200;
+}
+.footer-main {
+  background-image: url(./footer.png);
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+.footer-section-one {
+  display: flex;
+  justify-content: space-around;
+}
+.facebook,
+.twitter,
+.instagram {
+  width: 60%;
+  margin: 0;
+  /* width: 33%; */
+  padding-top: 80px;
+}
+.footer-section-two {
+  text-align: center;
+}
+.awesome {
+  margin: 0;
+  width: 200px;
+  padding-top: 130px;
+}
+.footer-section-three-copyright {
+  font-family: Operator Mono;
+  font-size: 25px;
+  color: white;
+}
+.footer-section-three-copyright h6 {
+  font-weight: 150;
+  text-align: center;
+  /* padding-top: 100px; */
+}
+.copyright {
+  font-size: 20px;
+}
+/* Responsive Web Design */
+@media (max-width: 750px) {
+  h1 {
+    font-size: 20px;
+  }
+  .container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+  }
+  button a {
+    font-size: 12px;
+  }
+  button {
+    height: 25px;
+  }
+  li a:hover {
+    border-bottom: none;
+  }
+}
